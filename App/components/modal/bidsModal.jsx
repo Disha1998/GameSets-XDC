@@ -30,7 +30,7 @@ const BidsModal = () => {
       const receipt = await tx.wait();
 
       if (receipt.status === 1) {
-				toast("Asset Purchased Successfully 🎉!!");
+        toast("Asset Purchased Successfully 🎉!!");
         await updateForPurchase(_tokenId);
         await getAllNfts()
 
@@ -88,12 +88,16 @@ const BidsModal = () => {
                       <div className="dark:border-jacarta-600 border-jacarta-100 relative mb-2 flex items-center overflow-hidden rounded-lg border">
                         <div className="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
                           <span>
-                            <svg className="icon icon-ETH mr-1 h-5 w-5">
+                            <img
+                              src="/images/xdc.png"
+                              className="icon icon-ETH mr-1 h-5 w-5"
+                            />
+                            {/* <svg className="icon icon-ETH mr-1 h-5 w-5">
                               <use xlinkHref="/icons.svg#icon-ETH"></use>
-                            </svg>
+                            </svg> */}
                           </span>
                           <span className="font-display text-jacarta-700 text-sm">
-                          ETH
+                            TXDC
                           </span>
                         </div>
 

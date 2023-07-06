@@ -7,7 +7,7 @@ const RendersellNft = ({ rendersellNFT, setTitle, setDescription, setPrice, crea
     const blockChainOptionsText = [
         {
             id: 1,
-            text: 'Patex Sepolia',
+            text: 'Apothem',
         },
     ];
     const categoryOptionsText = [

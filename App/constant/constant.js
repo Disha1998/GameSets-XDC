@@ -1,4 +1,4 @@
-export const GAMESETS_NFT_CONTRACT = "0x8821c0fC39D6aCeEAd61fA77907bf3720B7870b0"
+export const GAMESETS_NFT_CONTRACT = "0x94aCAd314d00A67D83A400e3d606238d91D3798b"
 
 export const abi = [
   {
@@ -462,4 +462,3 @@ export const abi = [
     "type": "function"
   }
 ]
- 

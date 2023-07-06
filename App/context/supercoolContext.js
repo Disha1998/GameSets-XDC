@@ -87,7 +87,7 @@ export const SupercoolAuthContextProvider = (props) => {
       } else {
         await window.ethereum.request({
           method: 'wallet_switchEthereumChain',
-          params: [{ chainId: '471100' }] // Patex Sepolia chain ID
+          params: [{ chainId: '51' }] // Apothem-XDC chain ID
         });
         setWalletConnected(true);
       }

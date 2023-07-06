@@ -275,11 +275,15 @@ export default function Header01() {
                           Balance
                         </span>
                         <div className="flex items-center">
-                          <svg className="icon icon-ETH mr-1 h-5 w-5">
+                          <img
+                          className="icon icon-ETH mr-1 h-5 w-5"
+                          src="/images/xdc.png"
+                          />
+                          {/* <svg className="icon icon-ETH mr-1 h-5 w-5">
                             <use xlinkHref="/icons.svg#icon-ETH"></use>
-                          </svg>
+                          </svg> */}
                           <span className="text-green text-lg font-bold">
-                            10 ETH
+                            10 TXDC
                           </span>
                         </div>
                       </div>

@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
 
   const Gamesets = await hre.ethers.getContractFactory("GameSets");
-  const gamesets = await Gamesets.deploy("supercool", "SC");
+  const gamesets = await Gamesets.deploy("GameSets", "GS");
 
   await gamesets.deployed();
 
